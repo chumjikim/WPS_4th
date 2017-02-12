@@ -81,11 +81,12 @@ class Album(models.Model):
 ##Field types
 
 모델에 필드를 선언할때, 각각의 필드는 Field 클래스의 인스턴스여야합니다. 각 필드의 클래스 타입을 통해 Django는 아래와 같은 내용을 자동적으로 판단하여 동작할 수 있게 됩니다.
-데이터베이스 컬럼 타입. (예) INTEGER, VARCHAR
-Django Form을 이용하여 모델을 HTML 위젯으로 렌더링할때 각 필드를 어떻게 표현할지.
 
 (예)
-``` <input type="text">, <select>
+
+``` 
+<input type="text">, <select>
+
 ```
 
 Django admin 페이지나 자동생성된 form에서 수행될 최소한의 유효성 체크(Validation)
