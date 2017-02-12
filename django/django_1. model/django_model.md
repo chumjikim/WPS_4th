@@ -135,7 +135,7 @@ class Person(models.Model):
     shirt_size = models.CharField(max_length=1, choices=SHIRT_SIZES)
 ```
 
-![1](/Users/changyukim/Desktop/image/1.png)
+![1](/Users/changyukim/Desktop/WPS-4th/django/django_1. model/image/1.png)
 
 위와 같이 선언된 모델을 쉘에서 실습해보면 아래와 같은 결과를 볼 수 있습니다. 
 
